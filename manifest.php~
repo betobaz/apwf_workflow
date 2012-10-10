@@ -189,7 +189,7 @@ $installdefs = array (
 		),
 		array(
 			'module' 				=> '',
-			'hook' 					=> 'before_delete',
+			'hook' 					=> 'delete_save',
 			'order' 				=> '10',
 			'description' 	=> 'carga datos previos del bean',
 			'file' 					=> 'modules/APWF_Workflows/APWF_WorkflowHooks.php',
